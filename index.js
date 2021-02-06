@@ -10,7 +10,7 @@ const secondRatio=currentDate.getSeconds()/60;
 const minuteRatio=(secondRatio+currentDate.getMinutes())/60;
 const hourRatio=(minuteRatio+currentDate.getHours())/12;
 setRotaion(secondHand,secondRatio)
-setRotaion(minuteHand,minuteHand)
+setRotaion(minuteHand,minuteRatio)
 setRotaion(hourHand,hourRatio)
 
 }
@@ -20,3 +20,5 @@ element.style.setProperty('--rotation',rotationRatio *360)
 
 
 }
+
+setClock()

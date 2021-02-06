@@ -83,7 +83,7 @@ border-radius: 50%;
 .clock .hand.minute {
   width: 7px;
   height: 40%;
-  background-color: black;
+  background-color:black;
 }
 
 .clock .hand.hour {
